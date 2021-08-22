@@ -74,6 +74,14 @@ namespace DynamicStaticPolymorphism
 
             Name += " classSmazka";
         }
+
+        public void Discount()
+        {
+          
+            this.Price -= 90;
+
+            Name += " classPreziki";
+        }
     }
 
     //2ой тип полиморфизма(аналогичный только для удобства исп ключ слово new) - статический или еще как можно назвать замещением по урокам ITDVN, но в случае, если у методов совпадают сигнатуры. 
